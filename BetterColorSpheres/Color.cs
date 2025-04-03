@@ -20,7 +20,7 @@ namespace BetterColorSpheres
 
         public byte GetGrey()
         {
-            return Byte.Parse(((red / 3) + (green / 3) + (blue / 3)).ToString());
+            return Byte.Parse(((red+green+blue)/3).ToString());
         }
         
     }

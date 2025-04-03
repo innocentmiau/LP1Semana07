@@ -26,7 +26,7 @@ namespace ColorSpheres
 
         public byte GetGrey()
         {
-            return Byte.Parse(((_red / 3) + (_green / 3) + (_blue / 3)).ToString());
+            return Byte.Parse(((_red+_green+_blue)/3).ToString());
         }
     }
 }
