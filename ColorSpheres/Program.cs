@@ -25,6 +25,9 @@ namespace ColorSpheres
             Console.WriteLine($"Sphere2: {sphere2.GetTimesThrown()}");
             
             sphere2.Pop();
+            sphere1.Throw();
+            sphere1.Throw();
+            sphere1.Throw();
             sphere2.Throw();
             sphere2.Throw();
             sphere2.Throw();
