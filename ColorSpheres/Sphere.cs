@@ -20,6 +20,6 @@
             if (_radius > 0) _shot++;
         }
 
-        public void GetTimesThrown() => _shot;
+        public int GetTimesThrown() => _shot;
     }
 }
