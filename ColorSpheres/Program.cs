@@ -6,8 +6,6 @@ namespace ColorSpheres
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
-
             Color color = new Color(80, 70, 200);
             Color color2 = new Color(200, 80, 70);
 
