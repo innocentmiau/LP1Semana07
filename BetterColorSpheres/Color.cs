@@ -9,8 +9,10 @@ namespace BetterColorSpheres
         public byte green { get; }
         public byte blue { get; }
         public byte alpha { get; }
+
+        public Color(byte red, byte green, byte blue) : this(red, green, blue, 255) {}
         
-        public Color(byte red, byte green, byte blue, byte alpha = 255)
+        public Color(byte red, byte green, byte blue, byte alpha)
         {
             this.red = red;
             this.green = green;
