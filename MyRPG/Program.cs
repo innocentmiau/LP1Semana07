@@ -7,7 +7,7 @@ namespace MyRPG
         private static void Main()
         {
             Player player = new Player("Hero");
-
+            
             Console.WriteLine($"Name: {player.Name}");      // Name: Hero
             Console.WriteLine($"Level: {player.Level}");    // Level: 1
             Console.WriteLine($"XP: {player.XP}");          // XP: 0
