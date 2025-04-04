@@ -27,6 +27,7 @@
             set
             {
                 health = value;
+                if (health > MaxHealth) health = MaxHealth;
                 if (health < 0) health = 0;
             }
         }
